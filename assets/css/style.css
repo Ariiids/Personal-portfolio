@@ -1,9 +1,83 @@
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  margin: 40px;
+/* ===== Reset dasar ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-header, footer {
-  margin-bottom: 40px;
+/* ===== Base ===== */
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.7;
+  color: #222;
+  background-color: #f9f9f9;
+}
+
+/* ===== Layout ===== */
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+/* ===== Typography ===== */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 16px;
+}
+
+header {
+  margin-bottom: 80px;
+}
+
+header p {
+  color: #555;
+}
+
+footer {
+  margin-top: 80px;
+  padding-top: 40px;
+  border-top: 1px solid #ddd;
+  color: #777;
+  font-size: 0.9rem;
+}
+
+ul {
+  margin-left: 20px;
+  margin-bottom: 16px;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+article {
+  background: #fff;
+  padding: 30px;
+  border-radius: 6px;
+  border: 1px solid #eaeaea;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
